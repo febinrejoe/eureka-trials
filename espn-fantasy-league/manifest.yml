@@ -1,0 +1,9 @@
+---
+applications:
+- name: espn-fantasy-league-svc
+  memory: 1024M
+  instances: 1
+  host: espn-fantasy-league-svc
+  path: target/espn-fantasy-league-0.0.1-SNAPSHOT.war
+  services:
+   - eureka-service

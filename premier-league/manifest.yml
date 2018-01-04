@@ -1,0 +1,9 @@
+---
+applications:
+- name: premier-league-svc
+  memory: 1024M
+  instances: 1
+  host: premier-league-svc
+  path: target/premier-league-0.0.1-SNAPSHOT.war
+  services:
+   - eureka-service

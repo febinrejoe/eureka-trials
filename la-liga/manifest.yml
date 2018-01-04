@@ -1,0 +1,9 @@
+---
+applications:
+- name: la-liga-svc
+  memory: 1024M
+  instances: 1
+  host: la-liga-svc
+  path: target/la-liga-0.0.1-SNAPSHOT.war
+  services:
+   - eureka-service
